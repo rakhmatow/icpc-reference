@@ -25,9 +25,9 @@ jobs:
     - name: Compress
       run: zip kactl.zip kactl.pdf
     - name: Upload Release Asset
-      uses: actions/upload-release-asset@v1
+      uses: shogo82148/actions-upload-release-asset@v1
       with:
-        upload_url: ${{ github.repository_releases_url }}
+        upload_url: ${{ github.event.release.upload_url }}
         asset_path: ./kactl.zip
         asset_name: kactl.pdf
         asset_content_type: application/pdf
