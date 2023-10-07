@@ -20,7 +20,7 @@ struct timeit {
 int main() {
     forn(it, 0, 100000) {
         int n =(rand()%32)+1;
-        vb ed(n);
+        vbit ed(n);
         vector<maximal::B> ed2(n);
         int p =rand()%100;
         forn(i, 0, n) forn(j, 0, i) {
