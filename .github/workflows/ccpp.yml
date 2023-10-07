@@ -22,9 +22,8 @@ jobs:
       run: make test
     - name: Build pdf
       run: make kactl
-    - name: Release pdf
-      uses: softprops/action-gh-release@v1
+    - name: Upload pdf
+      uses: actions/upload-artifact@v2
       with:
-        files: kactl.pdf
-        token: ${{ secrets.SECRET_GITHUB_TOKEN }}
-        generate_release_notes: Yes
+        name: reference.pdf
+        path: kactl.pdf
