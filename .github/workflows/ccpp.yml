@@ -21,7 +21,7 @@ jobs:
     - name: Build pdf
       run: make kactl
     - name: Upload pdf
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: reference.pdf
         path: kactl.pdf
