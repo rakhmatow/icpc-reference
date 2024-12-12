@@ -1,7 +1,7 @@
 /**
  * Author: Atai Rakhmatov
  * Source: http://e-maxx.ru/algo/dijkstra
- * Description: $e = 1$: find shortest distances from $b$, else find shortest path from $b$ to $e$
+ * Description: $e = -1$: find shortest distances from $b$, else find shortest path from $b$ to $e$
  * Time: O(N^2 + M)
  * Status: tested on https://codeforces.com/group/nGNkhppaA5/contest/479325/problem/B
  */
