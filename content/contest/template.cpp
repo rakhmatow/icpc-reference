@@ -1,4 +1,6 @@
+// #pragma GCC optimize("Ofast,unroll-loops")
 #include <bits/stdc++.h>
+#pragma GCC target("avx,avx2,fma")
 using namespace std;
 
 #define forn(i, a, b) for(int i = a; i < (b); ++i)
@@ -19,7 +21,7 @@ typedef pair<ll, ll> pll;
 typedef vector<pll> vpll;
 typedef vector<string> vs;
 
-const ll MOD = 1e9 + 7;
+const ll MOD = 998244353;
 
 int main() {
 	cin.tie(0)->sync_with_stdio(0);
