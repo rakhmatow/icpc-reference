@@ -19,6 +19,7 @@ typedef vector<vll> vvll;
 typedef vector<bool> vb;
 typedef pair<ll, ll> pll;
 typedef vector<pll> vpll;
+typedef vector<vpll> vvpll;
 typedef vector<string> vs;
 
 const ll MOD = 998244353;
